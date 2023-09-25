@@ -1,0 +1,14 @@
+/* Masquer la navigation et le pied de page lors de l'impression */
+#sidebarToggleTop, .navbar, .sticky-footer {
+    display: none;
+}
+
+/* Réduire les marges pour une impression plus propre */
+.container-d {
+    margin-top: 20px;
+}
+.signature{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
